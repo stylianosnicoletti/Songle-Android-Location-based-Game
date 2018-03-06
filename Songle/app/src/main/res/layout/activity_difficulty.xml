@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_hard"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="Hard"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_below="@+id/appCompatButton_normal"
+        android:layout_alignStart="@+id/appCompatButton_normal" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_normal"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="Normal"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_below="@+id/appCompatButton_easy"
+        android:layout_alignStart="@+id/appCompatButton_easy" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_easy"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="Easy"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_below="@+id/appCompatButton_veryeasy"
+        android:layout_alignStart="@+id/appCompatButton_veryeasy" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_veryeasy"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="23dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="very easy"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_below="@+id/text_choosedifficulty"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/text_choosedifficulty"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.10"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_veryhard"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="very hard"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/appCompatButton_hard"
+        android:layout_alignStart="@+id/appCompatButton_hard" />
+
+</RelativeLayout>

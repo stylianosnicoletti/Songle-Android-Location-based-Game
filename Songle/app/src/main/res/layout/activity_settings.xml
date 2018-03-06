@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/text_settings"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="34dp"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_changedifficulty"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="Change difficulty"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_below="@+id/text_settings"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_reset_game"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="22dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="Reset Game"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_below="@+id/appCompatButton_howtoplay"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_howtoplay"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/appCompatButton_changedifficulty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="Help Video"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/switch_music"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="Music"
+        android:textColor="@color/colorText"
+        android:textSize="22sp"
+        android:layout_below="@+id/appCompatButton_reset_game"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/textViewTheEnd"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorTextHint"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        tools:text="\n\nTHE END!" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_startover"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+
+        android:text="START NEW GAME"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_waitfornewsongs"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+
+        android:text="Wait For New Songs"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp" />
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="34dp"
+        android:layout_weight="0.10"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_play"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="18dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="Play"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_below="@+id/text_welcome"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_songs"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/appCompatButton_play"
+        android:layout_below="@+id/appCompatButton_play"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="Songs"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+    <!--android:layout_below="@+id/appCompatButton_bag"
+        android:layout_alignStart="@+id/appCompatButton_bag" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton_bag"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@color/colorTextHint"
+        android:elevation="0dp"
+        android:text="Bag"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/appCompatButton_play"
+        android:layout_alignStart="@+id/appCompatButton_play" />
+-->
+
+    <TextView
+        android:id="@+id/text_labelsStatistics"
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:layout_alignStart="@+id/text_welcome"
+
+
+        android:layout_alignTop="@+id/appCompatButton_songs"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="52dp"
+        android:layout_weight="0.10"
+        android:padding="16dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorText"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_valueStatistics"
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:layout_alignBaseline="@+id/text_labelsStatistics"
+        android:layout_alignBottom="@+id/text_labelsStatistics"
+        android:layout_alignEnd="@+id/text_welcome"
+        android:layout_marginEnd="45dp"
+        android:layout_weight="0.10"
+        android:padding="16dp"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/colorText"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButtonForSettings"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/text_welcome"
+        android:layout_toEndOf="@+id/appCompatButton_play"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/wrench512" />
+
+</RelativeLayout>
