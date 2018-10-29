@@ -5,3 +5,5 @@ Words are collected by visiting their location on the map, the
 player literally moves to that location with their mobile phone. There are five different
 versions of the map for each song, each giving progressively more hints to help the user
 guess the song more easily.
+
+[a workaround link](repo/blob/master/other_file.md)
