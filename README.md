@@ -6,5 +6,6 @@ player literally moves to that location with their mobile phone. There are five 
 versions of the map for each song, each giving progressively more hints to help the user
 guess the song more easily.
 
-[Design Document](https://github.com/stylianosnicoletti/SELP-Songle/blob/master/doc/design.pdf)
-[Documentation](repo/blob/master/other_file.md)
+[Design Document](https://github.com/stylianosnicoletti/SELP-Songle/blob/master/doc/design.pdf) <br />#
+<br />
+[Documentation](https://github.com/stylianosnicoletti/SELP-Songle/blob/master/doc/documentation.pdf)
