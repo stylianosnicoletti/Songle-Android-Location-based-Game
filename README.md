@@ -8,4 +8,6 @@ guess the song more easily.
 
 [Design Document](https://github.com/stylianosnicoletti/SELP-Songle/blob/master/doc/design.pdf) <br />
 <br />
-[Documentation](https://github.com/stylianosnicoletti/SELP-Songle/blob/master/doc/documentation.pdf)
+[Documentation](https://github.com/stylianosnicoletti/SELP-Songle/blob/master/doc/documentation.pdf) <br />
+<br />
+![Alt text](https://github.com/stylianosnicoletti/Songle-Android-Location-based-Game/blob/master/Screenshots/activities.png?raw=true)
